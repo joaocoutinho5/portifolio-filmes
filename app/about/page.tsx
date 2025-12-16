@@ -83,23 +83,23 @@ export default function About() {
           <ul className="space-y-3 text-[#999999]">
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
-              Página inicial com slideshow animado de posters
+              Página inicial com slideshow animado de posters.
             </li>
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
-              Galeria responsiva de filmes com efeitos hover
+              Galeria responsiva de filmes com efeitos hover.
             </li>
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
-              Carregamento automático de filmes ao alcançar o final da página
+              Carregamento automático de filmes ao alcançar o final da página.
             </li>
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
-              Página de detalhes com sinopse, gêneros, avaliação e trailer
+              Página de detalhes com sinopse, gêneros, avaliação e trailer.
             </li>
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
-              Design responsivo para todos os dispositivos
+              Design responsivo para todos os dispositivos.
             </li>
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
@@ -107,7 +107,7 @@ export default function About() {
             </li>
             <li className="flex items-center gap-3">
               <span className="w-2 h-2 shrink-0 rounded-full bg-[#e50914]" />
-              Tema escuro cinematográfico com acentos em vermelho
+              Tema escuro cinematográfico com acentos em vermelho.
             </li>
           </ul>
         </section>
