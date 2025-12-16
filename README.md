@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## [Acesse o site do projeto]([https://SEU-LINK-AQUI](https://portifolio-filmes.vercel.app))
 
-## Getting Started
+# Projeto de Estudo – Catálogo de Filmes
 
-First, run the development server:
+Este repositório foi criado com o objetivo de **estudo e prática** no desenvolvimento de aplicações web utilizando **Next.js**, **React** e **Tailwind CSS**, consumindo dados da **API do TMDB (The Movie Database)**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+- **TMDB API**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Sobre o Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto consiste em uma aplicação de **catálogo de filmes**, permitindo visualizar títulos populares, acessar detalhes completos de cada filme e consumir dados reais de uma API pública. O foco principal está na prática de consumo de APIs, organização de componentes e criação de interfaces modernas e responsivas.
 
-## Learn More
+A aplicação prioriza uma navegação simples, visual agradável e boa experiência do usuário, simulando o funcionamento de uma plataforma de consulta de filmes.
 
-To learn more about Next.js, take a look at the following resources:
+### Funcionalidades Implementadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Listagem de filmes populares**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  - Consumo da API do TMDB para exibição dinâmica dos filmes
 
-## Deploy on Vercel
+- **Paginação de resultados**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - Navegação entre páginas de filmes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Página de detalhes do filme**
+
+  - Exibição de informações como título, sinopse, data de lançamento, avaliação e imagem de capa
+
+- **Exibição de trailer**
+
+  - Integração com vídeos do YouTube quando disponíveis
+
+- **Filtro de conteúdo adulto**
+
+  - Utilização de parâmetros da API para controle de conteúdo
+
+- **Layout responsivo**
+
+  - Adaptado para diferentes tamanhos de tela
+
+- **Estilização com Tailwind CSS**
+
+  - Interface moderna
+  - Cores bem definidas
+  - Feedback visual em botões e interações
+
+## Objetivos do Projeto
+
+Este projeto tem como principal objetivo o **aprendizado prático** no desenvolvimento front-end moderno:
+
+- Consumir APIs REST de forma segura
+- Trabalhar com variáveis de ambiente (`.env`)
+- Organizar componentes e páginas no Next.js
+- Utilizar rotas dinâmicas
+- Criar layouts responsivos com Tailwind CSS
+- Melhorar a experiência do usuário com boas práticas de UI
+- Praticar leitura e interpretação de documentação de APIs
+
+## Observações
+
+> Este é um projeto de estudo, **não destinado ao uso em produção**. Ele foi desenvolvido com o intuito de consolidar conhecimentos em React, Next.js e consumo de APIs externas.
+
+---
+
+**Feedbacks, sugestões e dicas são muito bem-vindos!** Este projeto faz parte do meu processo contínuo de aprendizado e evolução no desenvolvimento web.
+
