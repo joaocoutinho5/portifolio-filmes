@@ -1,12 +1,8 @@
-<h2>
-  <a href="https://portifolio-filmes.vercel.app" target="_blank" rel="noopener noreferrer">
-    Acesse o site do projeto
-  </a>
-</h2>
-
 # Projeto de Estudo – Catálogo de Filmes
 
-Este repositório foi criado com o objetivo de **estudo e prática** no desenvolvimento de aplicações web utilizando **Next.js**, **React** e **Tailwind CSS**, consumindo dados da **API do TMDB (The Movie Database)**.
+[![Acessar Projeto](https://img.shields.io/badge/Acessar%20Projeto-Online-success)](https://portifolio-filmes.vercel.app)
+
+Aplicação web para consulta de filmes, com listagem, detalhes e trailers, utilizando dados da API do TMDB (The Movie Database).
 
 ## Tecnologias Utilizadas
 
@@ -16,6 +12,8 @@ Este repositório foi criado com o objetivo de **estudo e prática** no desenvol
 - **TMDB API**
 
 ## Sobre o Projeto
+
+Este repositório foi criado com o objetivo de **estudo e prática** no desenvolvimento de aplicações web utilizando **Next.js**, **React** e **Tailwind CSS**, consumindo dados da **API do TMDB (The Movie Database)**.
 
 O projeto consiste em uma aplicação de **catálogo de filmes**, permitindo visualizar títulos populares, acessar detalhes completos de cada filme e consumir dados reais de uma API pública. O foco principal está na prática de consumo de APIs, organização de componentes e criação de interfaces modernas e responsivas.
 
