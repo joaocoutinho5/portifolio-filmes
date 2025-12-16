@@ -1,4 +1,4 @@
-## [Acesse o site do projeto]([https://SEU-LINK-AQUI](https://portifolio-filmes.vercel.app))
+## [Acesse o site do projeto](https://portifolio-filmes.vercel.app)
 
 # Projeto de Estudo – Catálogo de Filmes
 
