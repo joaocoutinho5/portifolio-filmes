@@ -39,7 +39,7 @@ export default function Movies() {
     });
 
     const res = await fetch(
-      `https://api.themoviedb.org/3/movie/popular?language=pt-BR&page=${page}`,
+      `https://api.themoviedb.org/3/discover/movie?language=pt-BR&page=${page}&include_adult=false&certification_country=BR&certification.lte=16&sort_by=popularity.desc`,
       {
         headers: {
           Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_TOKEN}`,
