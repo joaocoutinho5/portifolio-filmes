@@ -1,4 +1,8 @@
-## [Acesse o site do projeto](https://portifolio-filmes.vercel.app)
+<h2>
+  <a href="https://portifolio-filmes.vercel.app" target="_blank" rel="noopener noreferrer">
+    Acesse o site do projeto
+  </a>
+</h2>
 
 # Projeto de Estudo – Catálogo de Filmes
 
