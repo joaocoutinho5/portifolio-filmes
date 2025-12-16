@@ -24,7 +24,7 @@ interface Video {
 export default async function MovieDetails({ params }: MoviePageProps) {
   const { id } = await params;
 
-  const BASE = process.env.TMDB_BASE;
+  const BASE = process.env.NEXT_PUBLIC_TMDB_BASE;
   const TOKEN = process.env.NEXT_PUBLIC_TMDB_TOKEN;
 
   const res = await fetch(
