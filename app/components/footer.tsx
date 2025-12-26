@@ -3,8 +3,9 @@ import { Heart } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full text-[#999999] py-4">
-      <div className="w-full flex flex-col md:flex-row items-center md:items-center justify-between gap-4 md:gap-0">
+    //Footer Wrapper
+    <footer className="w-full bg-[#141414] border-t border-[#2E2E2E] text-[#999999] py-4">
+      <div className="w-full flex flex-col md:flex-row items-center md:items-center justify-between gap-4 md:gap-0  max-w-[1560px] mx-auto px-5">
         <p className="text-md text-center md:text-left flex flex-row items-center gap-1">
           Criado com{" "}
           <Heart size={20} fill="currentColor" className="text-[#e50914]" /> por{" "}

@@ -10,12 +10,13 @@ export default function Navbar() {
 
   const linkClass = (path: string) =>
     pathname === path
-      ? "font-semibold text-[#e50914] hover:opacity-70 transition" //active
-      : "font-semibold text-white hover:opacity-70 transition"; //default
+      ? "font-semibold text-[#e50914] hover:opacity-70 transition" //Active
+      : "font-semibold text-white hover:opacity-70 transition"; //Default
 
   return (
-    <header className="w-full py-4 flex justify-center items-center z-50">
-      <nav className="w-full flex items-center justify-between">
+    //NavBar Wrapper
+    <header className="w-full sticky top-0 left-0 z-50 bg-[#0b0b0b]/80 backdrop-blur-sm shadow border-b border-[#2E2E2E] py-4">
+      <nav className="max-w-[1560px] mx-auto px-5 flex items-center justify-between">
         {/* Nome do projeto (Link para Home) */}
         <Link
           href="/"
